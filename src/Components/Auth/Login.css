@@ -1,0 +1,16 @@
+.login_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google_btn{
+    font-size: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(219, 149, 19);
+    box-shadow: 10px 10px 30px rgb(142, 145, 146);
+    cursor: pointer;
+}

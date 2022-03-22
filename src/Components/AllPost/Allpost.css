@@ -1,0 +1,124 @@
+.top_menu{
+    height: 70px;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px rgb(211, 211, 211);
+}
+a{
+    text-decoration: none;
+}
+.spacial_logo{
+    color: blue;
+}
+.all_post{
+    margin: 10px 25rem;
+}
+@media only screen and (max-width: 768px) {
+    [class*="all_post"] {
+        margin: 10px 1rem;
+    }
+  }
+.create_post{
+    height: 5rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    cursor: pointer;
+}
+.create_post_content{
+    background: white;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.create_post_content> input{
+    width: 30rem;
+    height: 2rem;
+    margin: 0.5rem;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 400;
+    outline: none;
+}
+.create_post_content> textarea{
+    width: 30rem;
+    height: 6rem;
+    margin: 0.5rem;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 400;
+    outline: none;
+}
+.btn_post{
+    background: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn_upload{
+    background: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5px;
+}
+.icon_profile{
+    height: 3rem;
+}
+.create_post>p{
+    background: rgb(235, 235, 235);
+    font-size: large;
+    height: 3rem;
+    width: 25rem;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+.post{
+    background: white;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.post_top_container{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.profile{
+    display: flex;
+}
+.profile>p{
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+.post> p{
+    margin-top: 1rem;
+    text-align: justify;
+}
+.post_image{
+    height: 15rem;
+    width: 100%;
+    margin-top: 1rem;
+}
